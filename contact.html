@@ -1,0 +1,81 @@
+<!--
+    Program: contacts.html
+    Programmer: Brian Gauthier
+    Date: December 2nd, 2024
+    Purpose: Contact page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/style_contact.css">
+</head>
+
+<body>
+
+    <!-- Page Heading -->
+    <h1>Contact</h1>
+
+    <!-- Contact Forms -->
+    <form action="mailto:b.g.cloud@icloud.com" method="POST" enctype="text/plain">
+
+        <fieldset id="field1">
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" name="fname" size="40" pattern="[a-zA-Z' -]*"
+                placeholder="A to Z, space, quote, dash"><br>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" name="lname" size="40" pattern="[a-zA-Z' -]*"
+                placeholder="A to Z, space, quote, dash"><br>
+            <br>
+            <label for="phonenumb">Phone Number:</label>
+            <input id="phonenumb" type="phonenumb" name="phonenumb" size="40" pattern="[0-9\- ]*"
+                placeholder="Numbers, hyphens, and spaces">
+            <br><br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" size="40" placeholder="Your @">
+        </fieldset>
+
+        <fieldset id="field2">
+            <h5 class="headerA">Comments:</h5>
+            <textarea name="makeFeedback" rows="8" cols="63" maxlength="150"></textarea>
+        </fieldset>
+
+        <fieldset id="field3">
+           <h5>How did you discover this website?</h5>
+            <label for="website">Website</label>
+                    <input type="radio" id="website" name="discover" value="yesWebsite">
+                    <label for="facebook">Facebook</label>
+                    <input type="radio" id="facebook" name="discover" value="yesFacebook">
+                    <label for="linkedin">LinkedIn</label>
+                    <input type="radio" id="linkedin" name="discover" value="yesLinkedIn">
+                    <label for="email">Email</label>
+                    <input type="radio" id="email" name="discover" value="yesEmail">
+                    <label for="friend">A friend</label>
+                    <input type="radio" id="friend" name="discover" value="yesWFriend">
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="discover" value="yesOther">
+        </fieldset>
+
+        <fieldset id="fsSubmit">
+            <input type="reset" value="Clear Form">
+            <input type="submit" value="Submit Info">
+        </fieldset>
+    </form>
+
+    <!-- Footers -->
+    <div id="footer">
+        <p>
+            Brian Gauthier<br>
+            email:<a href="mailto:b.g.cloud@icloud.com">b.g.cloud@icloud.com</a>
+        </p>
+        <a href="homepage.html">Home</a>
+    </div>
+
+</body>
+
+</html>
