@@ -1,0 +1,69 @@
+/*
+    Program: style_homepage.css
+    Programmer: Brian Gauthier
+    Date: December 2, 2024
+    Purpose: Style the homepage.html doc
+*/
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    background-color: hotpink;
+}
+
+a:active {
+    color: red;
+}
+
+body {
+    font-family: 'BebasNeue', sans-serif;
+    background-image: url('../IMAGE/northrustico.JPEG');
+    background-size: 100% auto;
+
+}
+
+h1 {
+    font-size: 56px;
+    font-family: 'BebasNeue', sans-serif;
+}
+
+#content {
+    text-align: center;
+    margin: 24px auto;
+    max-width: 800px;
+    font-family: 'BebasNeue', sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+#footer {
+    position: fixed;
+    bottom: 5px;
+    left: 15.4%;
+    right: 15.4%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#footer2 {
+    position: fixed;
+    bottom: 5px;
+    left: 75%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#title {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    font-size: x-large;
+}

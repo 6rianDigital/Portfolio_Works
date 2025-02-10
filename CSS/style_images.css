@@ -1,0 +1,63 @@
+/*
+    Program: style_images.css
+    Programmer: Brian Gauthier
+    Date: December 2, 2024
+    Purpose: Style the images of the homepage.html doc
+*/
+
+
+.images_sideP{
+    border: 2px solid midnightblue;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 15%;
+}
+
+.images_heli1{
+    border: 2px solid midnightblue;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 15%;
+}
+
+.images_mpc{
+    border: 2px solid midnightblue;
+    position: absolute;
+    right: 5px;
+    top: 24%;
+    width: 15%;
+}
+
+.images_nyc{
+    border: 2px solid midnightblue;
+    position: absolute;
+    left: 5px;
+    bottom: 23%;
+    width: 15%;
+}
+
+.images_studio{
+    border: 2px solid midnightblue;
+    position: absolute;
+    bottom: 29%;
+    right: 5px;
+    width: 15%;
+}
+
+.images_vanisland{
+    border: 2px solid midnightblue;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 15%;
+}
+
+.images_ff2{
+    border: 2px solid midnightblue;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 15%;
+}
